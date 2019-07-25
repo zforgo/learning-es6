@@ -33,8 +33,8 @@ for (let i = 0; i < board.length; ++i) {
         house.push(board[houseX + k][houseY + l]);
       }
     }
-
-    console.log('Investigating position: ' + i + ', ' + j + ' horizontal: ' + horizotal + ', vertical: ' + vertical + ' house: ' + house + ' element: ' + board[i][j]);
+    const placed = [...new Set(horizotal.concat(vertical).concat(house).filter(v => v > 0).sort())];
+    console.log('Investigating position: ' + i + ', ' + j + ' horizontal: ' + horizotal + ', vertical: ' + vertical + ' house: ' + house + ' already placed: ' + placed + ' element: ' + board[i][j]);
   }
-  
+
 }
