@@ -1,16 +1,23 @@
 {
-  "name": "learning_es6",
+  "name": "sudoku_solver",
   "version": "1.0.0",
-  "description": "",
-  "main": "001_playground.js",
+  "description": "Sudoku Solver in Java and JavaScript",
+  "main": "./src/main/js/index.js",
+  "author": "zforgo",
+  "license": "MIT",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "sudoku"
+  ],
   "devDependencies": {
-    "eslint": "^6.1.0",
-    "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-plugin-import": "^2.18.2"
+    "jest": "^24.8.0",
+    "jest-cli": "^24.8.0",
+    "jest-each": "^24.9.0"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.1"
   }
 }
