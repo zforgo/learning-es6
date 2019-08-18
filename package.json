@@ -13,6 +13,8 @@
     "sudoku"
   ],
   "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-plugin-jest": "^22.15.1",
     "jest": "^24.8.0",
     "jest-cli": "^24.8.0",
     "jest-each": "^24.9.0"

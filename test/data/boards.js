@@ -48,6 +48,7 @@ const boards = {
         0, 0, 3, 0, 0, 7, 9, 0,
     ],
 
+    // eslint-disable-next-line no-sparse-arrays
     wrong_Hasnull: [
         0, 4, 5, 0, 0, 9, 8, 0, 0,
         0, 0, 9, 0, 0, 7, 0, 0, 1,

@@ -14,7 +14,7 @@ each([
         test(`returns ${expected} ${!expected ? `because ${message}` : ''}`, () => {
             expect(solver.isValidBoard(input)).toBe(expected);
         });
-    },
+    }
 );
 
 each([
@@ -27,7 +27,7 @@ each([
         test(`returns ${expected}`, () => {
             expect(solver.isCompleted(input)).toBe(expected);
         });
-    },
+    }
 );
 
 
