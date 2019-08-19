@@ -1,0 +1,4 @@
+* extract util functions (e.g. calculateIndicies) to a non-exported set
+* introduce rewire package for testing non-exported functions
+
+* place one element on a specified index and remove from possibilities (all places)
